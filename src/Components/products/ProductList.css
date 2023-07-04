@@ -1,0 +1,86 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    width: 200px;
+    height: 220px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 40%;
+    height:40%;
+  }
+  
+  .product-item p {
+    margin-top: 10px;
+    margin-left: 1px;
+  }
+  
+  .product-item button {
+    margin: 20px;
+    background-color: #eee;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .product-rating {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .rating-label {
+    margin-right: 55px;
+  }
+  
+  .price-label {
+    margin-right: 75px;
+  }
+ 
+  /* Add to car button styling  */
+  .cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgb(17, 138, 219) 0%, rgb(9, 121, 226) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  }
+
+   /* Add to car button styling  */
